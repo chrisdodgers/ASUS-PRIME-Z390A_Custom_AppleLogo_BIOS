@@ -1,0 +1,4 @@
+
+Photos/.DS_Store
+Demo/.DS_Store
+.DS_Store

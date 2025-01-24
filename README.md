@@ -39,7 +39,7 @@ This is a guide on how to modify your BIOS so you can change your splash screen 
    - Format: Bitmap (.bmp)
    - Color Depth: 8 bit
    - Size: MAX SIZE 762 KB
-- You can download the pre-made Apple Splash Screen I edited, or create your .bmp image own using your choice of image software.
+- You can download the [pre-made Apple Splash Screen I edited](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/main/Photos/AppleLogoSplashscreen.bmp), or create your .bmp image own using your choice of image software.
 
 >[!NOTE]   
 >If the file size is larger than ~762 KB, it can cause you to have a black screen at during boot. Please ensure before you continue that your .bmp file meets the specifications above!

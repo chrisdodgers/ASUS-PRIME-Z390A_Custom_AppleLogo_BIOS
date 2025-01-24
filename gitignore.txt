@@ -1,4 +1,5 @@
 
 Photos/.DS_Store
 Demo/.DS_Store
+Tools/.DS_Store
 .DS_Store

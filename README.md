@@ -4,10 +4,10 @@
 
 ![AppleSplashScreen](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/a440020ba80634739f176f433f817318983f5615/Demo/SplashScreen.png)</br>
 
-## About
+## About:
 This is a guide on how to modify your BIOS so you can change your splash screen from the ASUS logo to an Apple logo, or any logo of your choice! This guide is intended, and only has been tested on an ASUS PRIME Z390-A motherboard running BIOS version 2004. 
 > [!WARNING]
-> THIS PROCESS CAN BRICK YOUR SYSTEM, AND I TAKE NO RESPONSIBILITY IF YOU BRICK YOUR SYSTEM! ONLY CONTINUE WITH THIS GUIDE AT YOUR OWN RISK! I HAVE NOT TESTED NOR CONFIRMED IF THIS GUIDE WOULD WORK ON OTHER ASUS MOTHERBOARDS. THIS GUIDE WAS WRITTEN FOR SPECIFICALLY ASUS Z390-A MOTHERBOARDS. THIS GUIDE IS FOR EDUCATIONAL PURPOSES ONLY! IT IS ALSO 100% YOUR RISK IF YOU CHOOSE TO ATTEMPT THIS GUIDE ON OTHER MODEL ASUS MOTHERBOARDS. You have been warned. Proceed very carefully if you chose to do so.
+> **THIS PROCESS CAN BRICK YOUR SYSTEM, AND I TAKE NO RESPONSIBILITY IF YOU BRICK YOUR SYSTEM! ONLY CONTINUE WITH THIS GUIDE AT YOUR OWN RISK! I HAVE NOT TESTED NOR CONFIRMED IF THIS GUIDE WOULD WORK ON OTHER ASUS MOTHERBOARDS. THIS GUIDE WAS WRITTEN FOR SPECIFICALLY ASUS Z390-A MOTHERBOARDS. THIS GUIDE IS FOR EDUCATIONAL PURPOSES ONLY! IT IS ALSO 100% YOUR RISK IF YOU CHOOSE TO ATTEMPT THIS GUIDE ON OTHER MODEL ASUS MOTHERBOARDS.** You have been warned. Proceed very carefully if you chose to do so.
 >
 
 
@@ -105,16 +105,17 @@ This is a guide on how to modify your BIOS so you can change your splash screen 
 
 ## Preparing to Boot the USB:
 - We need to be sure we can boot into FreeDOS. We need to ensure **CSM (Compatibility Support Module)** is `Enabled`, or else FreeDOS will not boot.
+- Boot into your USB. Once booted you should be greeted with a prompt in FreeDOS.
 
 >[!NOTE]
 >If you find yourself still not able to boot your FreeDOS USB - Factory reset your BIOS to Default Settings. This will ensure no pieces of configuration is blocking legacy booting. 
 >
 
 ## Flashing the Custom BIOS:
-- Boot into your USB. Once booted you should be greeted with a prompt in FreeDOS.
+
 
 >[!WARNING]
->THIS IS THE LAST CHANCE TO MAKE SURE YOU CREATED YOUR CUSTOM BIOS IMAGE CORRECTLY, USING THE CORRECT BIOS VERSION FOR YOUR MOTHERBOARD, ETC. THE NEXT COMMAND WILL WIPE YOUR EXISTING BIOS AND FLASH THE NEW BIOS IMAGE! MAKE SURE YOUR MACHINE DOES NOT LOSE POWER DURING THIS PROCESS!
+>**THIS IS THE LAST CHANCE TO MAKE SURE YOU CREATED YOUR CUSTOM BIOS IMAGE CORRECTLY, USING THE CORRECT BIOS VERSION FOR YOUR MOTHERBOARD, ETC. THE NEXT COMMAND WILL WIPE YOUR EXISTING BIOS AND FLASH THE NEW BIOS IMAGE! MAKE SURE YOUR MACHINE DOES NOT LOSE POWER DURING THIS PROCESS!**
 >
 
 - Run the following command: `FLASH.BAT`
@@ -155,3 +156,7 @@ This is a known issue in general with ASUS, Gigabyte, and other motherboard manu
 
 - Once booted into your OS, you should now see your real MAC address (or the one you generated).
 - You can go ahead and load back your user profiles you backed up previously to restore your BIOS configuration.
+
+## Additional Photos:
+
+![KubuntuBoot](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/main/Demo/SplashScreen-Kubuntu.png)

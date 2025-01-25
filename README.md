@@ -57,7 +57,7 @@ This is a guide on how to modify your BIOS so you can change your splash screen 
 
 - Download [UEFITool v0.28.0](https://github.com/LongSoft/UEFITool/releases?q=0.28&expanded=true). For this guide, I will be doing this in macOS. The software used in this guide also works in Windows and Linux. 
 - Use UEFITool to open the BIOS image you downloaded. The file should be called `PRIME-Z390-A-ASUS-2004.CAP`
-- Once opened, select `AMI Aptio capsule` and then press `⌘``F`. 
+- Once opened, select `AMI Aptio capsule` and then press `⌘F`. 
 - A search window should pop up and click on the `GUID` tab. Paste in the following GUID: `7BB28B99-61BB-11D5-9A5D-0090273FC14D` and then press `Ok`.
 
 ![FindGUID](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/main/Photos/Find-GUID.png)</br>
@@ -84,7 +84,7 @@ This is a guide on how to modify your BIOS so you can change your splash screen 
 ![SelectRawBody](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/main/Photos/Select-Raw-Body.png)</br>
 
 - Now you should see a second `Raw section`. This is correct as you can see one says `Remove` as the action and the other shows `Replace` as the action.
-- Press `⌘``S` to save our BIOS image as a `.CAP` file. Save it as `PZ390A.CAP`.
+- Press `⌘S` to save our BIOS image as a `.CAP` file. Save it as `PZ390A.CAP`.
 - Once saved, UEFITool will ask you if you want to load the new image. Select `Yes`.
 
 ![Save-BIOS-CAP](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/main/Photos/Save-BIOS-CAP.png)</br>
@@ -136,7 +136,7 @@ This is a guide on how to modify your BIOS so you can change your splash screen 
 > - If your MAC Address shows 88:88:88:87:88:88 - you should follow the next part of this guide to fix this.
 > 
 
-## Fix MAC Address after BIOS Flash:
+## Fix MAC Address after BIOS Flash (Optional):
 This is a known issue in general with ASUS, Gigabyte, and other motherboard manufactures. Sometimes after a BIOS update/flash, the MAC address stored on your system is lost and not retained - hence why your MAC address is now 88:88:88:87:88:88. What we want to do is to flash our actual MAC address back on our NIC.
 
 - Inside of the BIOS Tools folder you downloaded previously in this guide, open the file called `MAC.BAT`.

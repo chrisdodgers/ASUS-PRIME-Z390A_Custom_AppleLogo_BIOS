@@ -4,6 +4,9 @@
 
 ![AppleSplashScreen](https://github.com/chrisdodgers/ASUS-PRIME-Z390A_Custom_AppleLogo_BIOS/blob/a440020ba80634739f176f433f817318983f5615/Demo/SplashScreen.png)</br>
 
+#[This Guide Has Been Archived. See the Updated Guide Here.](https://github.com/chrisdodgers/Useful_Mods_For_Various_Modern_ASUS_Mobos)
+I no longer recommend this guide and method of flashing anymore, as it can have side effects and does not work properly on some other ASUS mobos I've tried. The guide linked above is a better guide to follow. 
+
 ## About:
 This is a guide on how to modify your BIOS so you can change your splash screen from the ASUS logo to an Apple logo, or any logo of your choice! This guide is intended, and only has been tested on an ASUS PRIME Z390-A motherboard running BIOS version 2004. 
 > [!WARNING]
